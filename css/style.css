@@ -1,0 +1,165 @@
+/* font-family: 'Oleo Script', cursive;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif; */
+:root {
+  --logo-color: #000000;
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --header-bg-color: #ffffff;
+  --primary-bg-color: #f5f5f5;
+  --secondary-bg-color: #f5f4fa;
+  --hero-bg-color: #2f303a;
+  --contact-footer-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  background-color: var(--primary-bg-color);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* хедер */
+
+.header {
+  background-color: var(--header-bg-color);
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  color: var(--logo-color);
+}
+
+.web {
+  color: var(--accent-color);
+}
+
+/* меню */
+
+.menu .link {
+  font-weight: 500;
+  color: var(--title-text-color);
+}
+
+.menu .link:hover,
+.menu .link:focus {
+  color: var(--accent-color);
+}
+
+/* контакти хедера*/
+
+.contact-header .link {
+  font-weight: 500;
+  color: var(--primary-text-color);
+}
+
+.contact .link:hover,
+.contact .link:focus {
+  color: var(--accent-color);
+}
+
+/* main */
+
+/* герой */
+
+.hero {
+  text-align: center;
+  background-color: var(--hero-bg-color);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  letter-spacing: 0.06em;
+  color: var(--header-bg-color);
+  text-transform: uppercase;
+}
+
+.hero-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: var(--header-bg-color);
+  background-color: var(--accent-color);
+}
+
+/* Наші плюси */
+
+.section-studia .title {
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  color: var(--title-text-color);
+}
+
+.small-title {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+}
+
+.small-title .text {
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+/* наша команда */
+
+.section-team {
+  background-color: var(--secondary-bg-color);
+}
+
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: var(--title-text-color);
+}
+
+.job {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* футер */
+
+.footer {
+  background-color: var(--hero-bg-color);
+}
+
+.logo-footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  color: var(--header-bg-color);
+}
+
+.address .link {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.7;
+  color: var(--header-bg-color);
+}
+
+.contact-footer .link {
+  font-weight: 400;
+  line-height: 1.7;
+  color: var(--contact-footer-color);
+}
