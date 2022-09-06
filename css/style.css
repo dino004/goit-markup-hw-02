@@ -163,3 +163,44 @@ a {
   line-height: 1.7;
   color: var(--contact-footer-color);
 }
+
+/* портфоліо */
+
+/* фільтри */
+
+.filtrs .button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  color: var(--title-text-color);
+}
+
+/* фільтри ховер і фокус */
+
+.filtrs .button:hover,
+.filtrs .button:focus {
+  color: var(--header-bg-color);
+  background-color: var(--accent-color);
+}
+
+/* результат фільтра */
+
+.card {
+  background-color: var(--header-bg-color);
+}
+
+.card .service-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 00.06em;
+  color: var(--title-text-color);
+}
+
+.service-type {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+  color: var(--primary-text-color);
+}
