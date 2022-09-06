@@ -22,6 +22,10 @@ body {
   background-color: var(--primary-bg-color);
 }
 
+/* прибираємо зайвий заголовок з головної сторінки */
+.none {
+  display: none;
+}
 ul {
   list-style: none;
 }
