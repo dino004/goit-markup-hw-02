@@ -19,7 +19,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
-  background-color: var(--primary-bg-color);
+  background-color: var(--header-bg-color);
 }
 
 /* прибираємо зайвий заголовок з головної сторінки */
@@ -35,10 +35,6 @@ a {
 }
 
 /* хедер */
-
-.header {
-  background-color: var(--header-bg-color);
-}
 
 .logo {
   font-family: "Raleway", sans-serif;
@@ -70,8 +66,8 @@ a {
   color: var(--primary-text-color);
 }
 
-.contact .link:hover,
-.contact .link:focus {
+.contact-header .link:hover,
+.contact-header .link:focus {
   color: var(--accent-color);
 }
 
@@ -114,20 +110,16 @@ a {
 
 .small-title {
   font-weight: 700;
+  font-size: 14px;
   text-transform: uppercase;
   color: var(--title-text-color);
 }
 
 .small-title .text {
-  font-weight: 400;
   line-height: 1.7;
 }
 
 /* наша команда */
-
-.section-team {
-  background-color: var(--secondary-bg-color);
-}
 
 .name {
   font-weight: 500;
@@ -137,7 +129,6 @@ a {
 }
 
 .job {
-  font-weight: 400;
   font-size: 16px;
   text-align: center;
 }
@@ -155,17 +146,20 @@ a {
   color: var(--header-bg-color);
 }
 
-.address .link {
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.7;
-  color: var(--header-bg-color);
-}
 
 .contact-footer .link {
-  font-weight: 400;
+  font-style: normal;
   line-height: 1.7;
   color: var(--contact-footer-color);
+}
+
+.link.address {
+   color: var(--header-bg-color);
+}
+
+.contact-footer .link:hover,
+.contact-footer .link:focus {
+  color: var(--accent-color);
 }
 
 /* портфоліо */
@@ -173,9 +167,11 @@ a {
 /* фільтри */
 
 .filtrs .button {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
+  letter-spacing: 0.03em;
   text-align: center;
   color: var(--title-text-color);
 }
@@ -190,10 +186,6 @@ a {
 
 /* результат фільтра */
 
-.card {
-  background-color: var(--header-bg-color);
-}
-
 .card .service-name {
   font-weight: 700;
   font-size: 18px;
@@ -203,7 +195,6 @@ a {
 }
 
 .service-type {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
   color: var(--primary-text-color);
